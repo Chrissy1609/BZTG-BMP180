@@ -20,6 +20,6 @@ errechneteHoehe = int(bmp180.altitude)
 while True:
     print(Temperatur, "\u00b0C")
     print(Luftdruck, "hPa")
-    print(errechneteHoehe, "Meter ueber Wasser")
-    print("\n", "\n")
+    print(errechneteHoehe, "Meter ueber dem Wasser")
+    print("\n")
     time.sleep(10)
